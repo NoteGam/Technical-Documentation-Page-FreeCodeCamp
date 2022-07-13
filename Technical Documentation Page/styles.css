@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ------- Nav Bar ------- */
+nav > header {
+  font-size: 30px;
+  text-align: center;
+  color: #8cb561;
+  margin: 10px;
+}
+
+.white {
+  color: #fff4e7;
+}
+
+#navbar {
+  position: fixed;
+  height: 100%;
+  width: 250px;
+  border-right: solid;
+  background-color: #222321;
+}
+
+#navbar ul {
+  display: block;
+  padding-left: 30px;
+  padding-top: 20px;
+  list-style: none;
+}
+
+#navbar li {
+  padding-bottom: 13px;
+}
+
+.nav-link {
+  color: #777;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #8cb561;
+  transition: 0.3s;
+}
+
+@media (max-width: 700px) {
+  #navbar {
+    position: fixed;
+    height: 100%;
+    width: 170px;
+  }
+
+  nav > header {
+    font-size: 20px;
+  }
+
+  .nav-link {
+    font-size: 11px;
+  }
+
+  #navbar ul {
+    padding: 20px;
+    list-style: none;
+    text-align: left;
+  }
+}
+/* ------- Sections ------- */
+
+#main-doc {
+  padding-left: 320px;
+  padding-right: 20px;
+  background-color: #8cb561;
+  height: auto;
+}
+
+section {
+  border-bottom: rgb(66, 66, 66) solid 2px;
+}
+
+header {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+p {
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+q {
+  font-weight: 600;
+  color: rgb(66, 66, 66);
+}
+
+div {
+  padding-left: 30px;
+  padding-right: 250px;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+li {
+  padding: 5px;
+}
+
+ul {
+  padding-bottom: 20px;
+}
+
+.list {
+  padding-top: 8px;
+  padding-left: 40px;
+  color: rgb(66, 66, 66);
+  list-style: none;
+  font-size: 20px;
+}
+
+@media (max-width: 700px) {
+  #main-doc {
+    background-color: #8cb561;
+    height: auto;
+    min-width: 120px;
+    padding-left: 190px;
+  }
+
+  header {
+    font-size: 18px;
+  }
+
+  q {
+    font-weight: 600;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 8px;
+  }
+
+  div {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .list {
+    font-size: 12px;
+  }
+}
+
+/* ------- Executive Summary ------- */
+
+#Executive_Summary .vision {
+  padding-top: 4px;
+  padding-bottom: 10px;
+}
+
+/* ------- Footer ------- */
+
+footer {
+  padding-top: 50px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  footer {
+    font-size: 12px;
+  }
